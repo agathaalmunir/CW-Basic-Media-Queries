@@ -1,0 +1,32 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: slategray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Target Tablet Size */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        color: orange;
+    }
+}
+
+/* Target Desktop Size */
+@media screen and (min-width: 769px) and (max-width:1024px) {
+    body {
+        color: green;
+    }
+}
+
+/* Target Larger Desktop Size */
+@media screen and (min-width: 1025px) {
+    body {
+        color: royalblue;
+    }
+}
+
